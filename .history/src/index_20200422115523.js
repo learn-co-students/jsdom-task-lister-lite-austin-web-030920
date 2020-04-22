@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  document.getElementById('create-task-form').addEventListener('submit', createTask);
+  document.getElementById('create-task-form').addEventListener('submit');
 });
 
 function createTask(event) {
@@ -11,8 +11,5 @@ function createTask(event) {
 function appendTask(task) {
   const list = document.getElementById('tasks');
   const item = document.createElement('li');
-  item.innerText = task;
-  console.log(item)
-  console.log(list)
-  list.appendChild(item);
+  item.innerText = task
 }
