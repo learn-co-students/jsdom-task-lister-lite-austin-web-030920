@@ -15,14 +15,11 @@ function appendTask(task) {
   // console.log(item)
   // console.log(list)
   const button = document.createElement('button');
-  button.addEventListener('click', deleteItem);
-  button.innerText = '[X]';
+  button.addEventListener('click', deleteItem(task));
+  button.innerText = '[X]'
   item.append(button)
-  list.appendChild(item);
+  list.
+  appendChild(item);
 }
 
-function deleteItem(event) {
-  console.log(event.target.parentElement);
-  itemToDel = event.target.parentElement
-  itemToDel.parentElement.removeChild(itemToDel)
-}
+function deleteItem(task)

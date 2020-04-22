@@ -23,6 +23,4 @@ function appendTask(task) {
 
 function deleteItem(event) {
   console.log(event.target.parentElement);
-  itemToDel = event.target.parentElement
-  itemToDel.parentElement.removeChild(itemToDel)
 }
