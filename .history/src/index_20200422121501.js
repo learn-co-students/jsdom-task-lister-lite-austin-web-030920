@@ -14,5 +14,5 @@ function appendTask(task) {
   item.innerText = task;
   console.log(item)
   console.log(list)
-  list.appendChild(item);
+  list.appendChild.item;
 }

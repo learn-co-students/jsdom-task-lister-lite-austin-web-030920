@@ -13,6 +13,5 @@ function appendTask(task) {
   const item = document.createElement('li');
   item.innerText = task;
   console.log(item)
-  console.log(list)
-  list.appendChild(item);
+  list.appendChild.item;
 }
